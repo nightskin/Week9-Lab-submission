@@ -3901,7 +3901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Damage: 10
   FollowTarget: {fileID: 0}
-  _Debug: 1
+  _Debug: 0
 --- !u!114 &146515190254360176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3978,6 +3978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c864a0fcb9b624aaa0996abd74c67f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentHealth: 0
   baseHealth: 100
 --- !u!1 &8793950870416066462
 GameObject:

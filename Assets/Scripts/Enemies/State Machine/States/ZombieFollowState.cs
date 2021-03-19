@@ -27,8 +27,7 @@ public class ZombieFollowState : ZombieStates
         base.IntervalUpdate();
         OwnerZombie.ZombieNavMesh.SetDestination(FollowTarget.transform.position);
     }
-
-    // Update is called once per frame
+    
     public override void Update()
     {
         base.Update();
